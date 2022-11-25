@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: reg.hrlyit.com/beecloud/zeroops-example
+  repository: ubuntu
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "f4fc769"
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""

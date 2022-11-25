@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
         - name: zeroops-example
-          image: "reg.hrlyit.com/beecloud/zeroops-example:f4fc769"
+          image: ubuntu:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

@@ -1,4 +1,4 @@
-FROM reg.hrlyit.com/base/ubuntu:20.04-tz
+FROM ubuntu:latest
 LABEL description="This Dockerfile is written for zeroops-example server"
 EXPOSE 80
 COPY zeroops-example /opt/workspace/zeroops-example
